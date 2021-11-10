@@ -28,6 +28,5 @@ int main() {
 
 	data_file.close();
 
-
 	return 0;
 }
