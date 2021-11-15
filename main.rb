@@ -13,7 +13,7 @@ data.each do |line|
   end
 end
 
-workbook.csvの作成
+#workbook.csvの作成
 CSV.open("./File/workbook.csv", "w") do |csv|
   csv << ["id", "name", "date", "level_id"]
   workbook_name.each_with_index do |data, index|
